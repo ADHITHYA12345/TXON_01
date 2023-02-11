@@ -1,0 +1,87 @@
+.nav1 {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 i {
+    margin: 0 5px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+
+.nav2 {
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #a32929;
+    padding: 10px 20px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://img.freepik.com/free-photo/giant-building-with-sun_1127-400.jpg?w=740&t=st=1675278444~exp=1675279044~hmac=785b6bfe8d069edab7dcea903218e6cf66a445717904e27018c96f8012eb81dc );
+    height: 160vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.h-text {
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.h-text span {
+    color: #00FF00;
+    font-family: 'Teko', sans-serif;
+
+}
+
+.h-text h1 {
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    color: red;
+}
+
+.h-text p {
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+    color: yellow;
+}
+
+.h-text a {
+    text-decoration: none;
+    color: white;
+    background: #e67e22;
+    letter-spacing: 5px;
+    font-size: 17px;
+    padding: 10 15px;
+    margin: 0 15px;
+
+}
